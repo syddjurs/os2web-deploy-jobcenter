@@ -465,6 +465,9 @@ projects[lightbox2][version] = "1.0-beta1"
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
 
+projects[feedback][subdir] = "contrib"
+projects[feedback][version] = "7.x-2.x-dev"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
