@@ -459,6 +459,9 @@ projects[lightbox2][version] = "1.0-beta1"
 projects[environment_indicator][subdir] = "contrib"
 projects[environment_indicator][version] = "1.1"
 
+projects[feedback][subdir] = "contrib"
+projects[feedback][version] = "7.x-2.x-dev"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
