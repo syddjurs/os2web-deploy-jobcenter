@@ -406,7 +406,7 @@ function os2web_import_database() {
   }
 
   // Import database dump file.
-  $os2web_file = dirname(__FILE__) . '/db.sql';
+  $os2web_file = dirname(__FILE__) . '/db.sql.gz';
   $success = import_dump($os2web_file);
 
   if (!$success) {
