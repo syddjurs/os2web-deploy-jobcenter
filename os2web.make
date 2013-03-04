@@ -64,10 +64,9 @@ libraries[markitup][download][url] = "http://markitup.jaysalvat.com/downloads/do
 libraries[markitup][directory_name] = "markitup"
 libraries[markitup][destination] = "libraries"
 
-libraries[htmlpurifier][download][type] = "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
-libraries[htmlpurifier][directory_name] = "htmlpurifier"
-libraries[htmlpurifier][destination] = "libraries"
+libraries[htmlpurifier][download][type] = "git"
+libraries[htmlpurifier][download][url] = "git://repo.or.cz/htmlpurifier.git"
+libraries[htmlpurifier][download][tag] = "v4.4.0"
 
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.5b3.zip"
