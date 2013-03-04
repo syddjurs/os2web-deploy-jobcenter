@@ -17,7 +17,7 @@ projects[da][directory_name] = "translations"
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git://github.com/syddjurs/os2web.git"
-projects[os2web][download][tag] = "1.11.3"
+projects[os2web][download][tag] = "1.11.11"
 
 ; Bedst paa nettet
 projects[bedstpaanettet][subdir] = "contrib"
@@ -27,7 +27,7 @@ projects[bedstpaanettet][version] = "1.0"
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][url] = "git://github.com/syddjurs/cmstheme.git"
-projects[cmstheme][download][tag] = "1.11"
+projects[cmstheme][download][branch] = "master"
 projects[cmstheme][directory] = "cmstheme"
 
 ;; Contrib modules below:
@@ -441,6 +441,9 @@ projects[custom_search][version] = "1.9"
 
 projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.1"
+
+projects[extlink][subdir] = "contrib"
+projects[extlink][version] = "1.12"
 
 projects[fieldable_panels_panes][subdir] = "contrib"
 projects[fieldable_panels_panes][version] = "1.2"
