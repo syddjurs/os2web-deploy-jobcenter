@@ -19,6 +19,18 @@ projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git://github.com/syddjurs/os2web.git"
 projects[os2web][download][tag] = "1.11.11"
 
+projects[os2web_cp_service][type] = "module"
+projects[os2web_cp_service][download][type] = "git"
+projects[os2web_cp_service][download][branch] = "master"
+projects[os2web_cp_service][download][url] = "git://github.com/OS2web/os2web_cp_service.git"
+
+; Borger.dk Integration
+projects[os2web_borger_dk][type] = "module"
+projects[os2web_borger_dk][download][type] = "git"
+; projects[os2web_borger_dk][download][tag] = "1.0"
+projects[os2web_borger_dk][download][branch] = "master"
+projects[os2web_borger_dk][download][url] = "https://github.com/OS2web/os2web_borger_dk.git"
+
 ; Bedst paa nettet
 projects[bedstpaanettet][subdir] = "contrib"
 projects[bedstpaanettet][version] = "1.0"
@@ -64,9 +76,10 @@ libraries[markitup][download][url] = "http://markitup.jaysalvat.com/downloads/do
 libraries[markitup][directory_name] = "markitup"
 libraries[markitup][destination] = "libraries"
 
-libraries[htmlpurifier][download][type] = "git"
-libraries[htmlpurifier][download][url] = "git://repo.or.cz/htmlpurifier.git"
-libraries[htmlpurifier][download][tag] = "v4.4.0"
+libraries[htmlpurifier][download][type] = "get"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.5.0.tar.gz"
+libraries[htmlpurifier][directory_name] = "htmlpurifier"
+libraries[htmlpurifier][destination] = "libraries"
 
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.5b3.zip"
