@@ -22,7 +22,7 @@ projects[os2web_borger_dk][download][url] = "git@github.com:OS2web/os2web_borger
 ; OS2Web Themes
 ; projects[cmstheme][download][branch] = "develop"
 projects[cmstheme][download][tag] = ""
-projects[cmstheme][download][url] = "git@github.com:syddjurs/os2web-theme.git"
+projects[cmstheme][download][url] = "git@github.com:syddjurs/cmstheme.git"
 
 ; Development
 projects[devel][subdir] = "contrib"
