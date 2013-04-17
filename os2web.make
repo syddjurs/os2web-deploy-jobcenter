@@ -481,6 +481,12 @@ projects[lightbox2][version] = "1.0-beta1"
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
 
+projects[captcha][subdir] = "contrib"
+projects[captcha][version] = "1.0-beta2"
+
+projects[captcha_pack][subdir] = "contrib"
+projects[captcha_pack][version] = "1.0-alpha1"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
