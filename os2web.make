@@ -371,7 +371,7 @@ projects[feeds][patch][] = "http://drupal.org/files/feeds-taxonomy-text-format-1
 ; projects[feeds][patch][] = "patches/feeds-proxy.patch"
 
 projects[feeds_xpathparser][subdir] = "contrib"
-projects[feeds_xpathparser][version] = "1.x-dev"
+projects[feeds_xpathparser][version] = "1.0-beta3"
 
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
@@ -481,11 +481,8 @@ projects[lightbox2][version] = "1.0-beta1"
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
 
-projects[captcha][subdir] = "contrib"
-projects[captcha][version] = "1.0-beta2"
-
-projects[captcha_pack][subdir] = "contrib"
-projects[captcha_pack][version] = "1.0-alpha1"
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.14"
 
 ; Themes
 
