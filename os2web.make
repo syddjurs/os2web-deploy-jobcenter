@@ -17,8 +17,20 @@ projects[da][directory_name] = "translations"
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git://github.com/syddjurs/os2web.git"
+projects[os2web][download][tag] = "1.12.1"
 projects[os2web][download][branch] = "master"
-projects[os2web][download][tag] = "1.11.3"
+
+projects[os2web_cp_service][type] = "module"
+projects[os2web_cp_service][download][type] = "git"
+projects[os2web_cp_service][download][branch] = "master"
+projects[os2web_cp_service][download][url] = "git://github.com/OS2web/os2web_cp_service.git"
+
+; Borger.dk Integration
+projects[os2web_borger_dk][type] = "module"
+projects[os2web_borger_dk][download][type] = "git"
+;projects[os2web_borger_dk][download][tag] = "1.0"
+projects[os2web_borger_dk][download][branch] = "master"
+projects[os2web_borger_dk][download][url] = "https://github.com/OS2web/os2web_borger_dk.git"
 
 ; Bedst paa nettet
 projects[bedstpaanettet][subdir] = "contrib"
@@ -28,7 +40,6 @@ projects[bedstpaanettet][version] = "1.0"
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][url] = "git://github.com/syddjurs/cmstheme.git"
-projects[cmstheme][download][tag] = "1.11"
 projects[cmstheme][download][branch] = "master"
 projects[cmstheme][directory] = "cmstheme"
 
@@ -67,7 +78,7 @@ libraries[markitup][directory_name] = "markitup"
 libraries[markitup][destination] = "libraries"
 
 libraries[htmlpurifier][download][type] = "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.5.0.tar.gz"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
 
@@ -359,7 +370,7 @@ projects[feeds][patch][] = "http://drupal.org/files/feeds-taxonomy-text-format-1
 ; projects[feeds][patch][] = "patches/feeds-proxy.patch"
 
 projects[feeds_xpathparser][subdir] = "contrib"
-projects[feeds_xpathparser][version] = "1.x-dev"
+projects[feeds_xpathparser][version] = "1.0-beta3"
 
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
@@ -445,6 +456,9 @@ projects[custom_search][version] = "1.9"
 projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.1"
 
+projects[extlink][subdir] = "contrib"
+projects[extlink][version] = "1.12"
+
 projects[fieldable_panels_panes][subdir] = "contrib"
 projects[fieldable_panels_panes][version] = "1.2"
 
@@ -465,6 +479,9 @@ projects[lightbox2][version] = "1.0-beta1"
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
+
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.14"
 
 ; Themes
 
