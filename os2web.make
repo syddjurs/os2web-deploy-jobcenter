@@ -32,6 +32,20 @@ projects[os2web_borger_dk][download][type] = "git"
 projects[os2web_borger_dk][download][branch] = "master"
 projects[os2web_borger_dk][download][url] = "https://github.com/OS2web/os2web_borger_dk.git"
 
+; OS2web Mobile module
+projects[os2web_mobile][type] = "module"
+projects[os2web_mobile][download][type] = "git"
+;projects[os2web_mobile][download][tag] = "1.0"
+projects[os2web_mobile][download][branch] = "master"
+projects[os2web_mobile][download][url] = "https://github.com/OS2web/os2web_mobile.git"
+
+; OS2web Syddjurs Mobile module
+projects[os2web_mobile_syddjurs][type] = "module"
+projects[os2web_mobile_syddjurs][download][type] = "git"
+;projects[os2web_mobile_syddjurs][download][tag] = "1.0"
+projects[os2web_mobile_syddjurs][download][branch] = "master"
+projects[os2web_mobile_syddjurs][download][url] = "https://github.com/bellcom/os2web_mobile_syddjurs.git"
+
 ; Bedst paa nettet
 projects[bedstpaanettet][subdir] = "contrib"
 projects[bedstpaanettet][version] = "1.0"
@@ -39,9 +53,15 @@ projects[bedstpaanettet][version] = "1.0"
 ; OS2Web Themes
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
-projects[cmstheme][download][url] = "git://github.com/syddjurs/cmstheme.git"
+projects[cmstheme][download][url] = "https://github.com/syddjurs/cmstheme.git"
 projects[cmstheme][download][branch] = "master"
 projects[cmstheme][directory] = "cmstheme"
+
+projects[os2web_mobile_theme][type] = "theme"
+projects[os2web_mobile_theme][download][type] = "git"
+projects[os2web_mobile_theme][download][url] = "https://github.com/OS2web/os2web_mobile_theme.git"
+projects[os2web_mobile_theme][download][branch] = "master"
+projects[os2web_mobile_theme][directory] = "os2web_mobile_theme"
 
 ;; Contrib modules below:
 
