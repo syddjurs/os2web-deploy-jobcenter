@@ -1,0 +1,21 @@
+================ os2web-release-1.12   ===================
+-- Åben Indsigt
+
+-Aktiver OS2Web Case Publishing Service (OS2web frontend) i features.
+-- Skal evt. revertes for at strongarm bliver aktiv. path_auto.
+
+-Disable viewet "Arp Case view" under /admin/structure/views
+-- Skal gammel ARP sager ikke understøttes, kan modulet "OS2Web Acadre ARP Handler" disables.
+
+-Opdater "CP Approved Rules" taksonomi, til ønskede tags fra esdh.
+
+-Når aaben-indsigt er public, skal os2web_grund_paneler views revertes i featuren.
+- Hvis åben indsigt ikke skal være offentlig, skal linje 723 fjernes i os2web_cp_service.module
+
+- Indstil CP service variabler på admin/config/os2web/settings
+
+================ os2web-hotfix-1.11.22 ===================
+# Use honeypot for spam protection in feedback module
+
+Run 'drush en honeypot'
+Run 'drush cc all'
