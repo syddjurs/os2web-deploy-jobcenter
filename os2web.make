@@ -132,6 +132,10 @@ libraries[dompdf][download][url] = "https://github.com/dompdf/dompdf.git"
 libraries[dompdf][download][revision] = "master"
 libraries[dompdf][destination] = "modules/contrib/print"
 
+libraries[bootstrap][download][type] = "get"
+libraries[bootstrap][download][url] = "http://twitter.github.io/bootstrap/assets/bootstrap.zip"
+libraries[bootstrap][destination] = "themes/bootstrap"
+
 ; Contrib modules
 
 ; Features + related
