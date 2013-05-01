@@ -2,10 +2,10 @@
 -- Mobil opdatering
 Kør en ny ./reroll.sh
 
-drush en os2web_mobile os2web_mobile_theme os2web_mobile_syddjurs
+drush en os2web_mobile os2web_mobile_theme os2web_mobile_syddjurs os2web_mobile_feature
 drush cc registry
 drush cc theme-registry
-
+drush cc all
 
 ================ os2web-release-1.12   ===================
 -- Åben Indsigt
