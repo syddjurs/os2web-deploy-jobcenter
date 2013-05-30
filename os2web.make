@@ -216,6 +216,7 @@ projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
+projects[date][patch][] = "https://drupal.org/files/date_popup-add-custom-formats_3.patch"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc3"

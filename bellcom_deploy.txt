@@ -1,3 +1,7 @@
+================ os2web_cp_service/hotfix-1.0.1-beta1  =================
+Updates to disallow certain filetypes for download.
+Edit settings var to show certain message if disallowed. admin/config/os2web/settings
+
 ================ os2web-deploy-mobil  =================
 -- Mobil opdatering
 Kør en ny ./reroll.sh
