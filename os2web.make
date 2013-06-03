@@ -17,7 +17,7 @@ projects[da][directory_name] = "translations"
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git://github.com/syddjurs/os2web.git"
-projects[os2web][download][tag] = "1.12.3"
+projects[os2web][download][tag] = "1.12.8"
 projects[os2web][download][branch] = "master"
 
 projects[os2web_cp_service][type] = "module"
