@@ -17,7 +17,7 @@ projects[da][directory_name] = "translations"
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git://github.com/syddjurs/os2web.git"
-projects[os2web][download][tag] = "1.12.8"
+projects[os2web][download][tag] = "1.12.10"
 projects[os2web][download][branch] = "master"
 
 projects[os2web_cp_service][type] = "module"
@@ -216,6 +216,7 @@ projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
+projects[date][patch][] = "https://drupal.org/files/date_popup-add-custom-formats_3.patch"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc3"
