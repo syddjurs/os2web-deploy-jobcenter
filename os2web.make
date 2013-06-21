@@ -140,7 +140,7 @@ libraries[bootstrap][destination] = "themes/bootstrap"
 
 ; Features + related
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "2.0-rc1"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
