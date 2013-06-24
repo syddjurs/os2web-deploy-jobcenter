@@ -17,7 +17,7 @@ projects[da][directory_name] = "translations"
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git://github.com/syddjurs/os2web.git"
-projects[os2web][download][tag] = "1.12.10"
+projects[os2web][download][tag] = "1.12.13"
 projects[os2web][download][branch] = "master"
 
 projects[os2web_cp_service][type] = "module"
@@ -30,7 +30,7 @@ projects[os2web_borger_dk][type] = "module"
 projects[os2web_borger_dk][download][type] = "git"
 ;projects[os2web_borger_dk][download][tag] = "1.0"
 projects[os2web_borger_dk][download][branch] = "master"
-projects[os2web_borger_dk][download][url] = "https://github.com/OS2web/os2web_borger_dk.git"
+projects[os2web_borger_dk][download][url] = "https://github.com/syddjurs/os2web_borger_dk.git"
 
 ; OS2web Mobile module
 projects[os2web_mobile][type] = "module"
