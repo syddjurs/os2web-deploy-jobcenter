@@ -25,6 +25,20 @@ projects[os2web_cp_service][download][type] = "git"
 projects[os2web_cp_service][download][branch] = "master"
 projects[os2web_cp_service][download][url] = "git://github.com/OS2web/os2web_cp_service.git"
 
+; OS2web jobcenter syddjurs
+projects[os2web_jobcenter_syddjurs][type] = "module"
+projects[os2web_jobcenter_syddjurs][download][type] = "git"
+projects[os2web_jobcenter_syddjurs][download][branch] = "master"
+projects[os2web_jobcenter_syddjurs][download][url] = "https://github.com/syddjurs/os2web_jobcenter_syddjurs.git"
+
+; OS2web contact form
+projects[os2web_contact_form][type] = "module"
+projects[os2web_contact_form][download][type] = "git"
+projects[os2web_contact_form][download][branch] = "master"
+projects[os2web_contact_form][download][url] = "https://github.com/OS2web/os2web_contact_form.git"
+
+
+
 ; Borger.dk Integration
 projects[os2web_borger_dk][type] = "module"
 projects[os2web_borger_dk][download][type] = "git"
@@ -133,14 +147,14 @@ libraries[dompdf][download][revision] = "master"
 libraries[dompdf][destination] = "modules/contrib/print"
 
 libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "http://twitter.github.io/bootstrap/assets/bootstrap.zip"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/archive/v2.3.2.zip"
 libraries[bootstrap][destination] = "themes/bootstrap"
 
 ; Contrib modules
 
 ; Features + related
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "2.0-rc1"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
