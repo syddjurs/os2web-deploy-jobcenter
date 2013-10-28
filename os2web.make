@@ -184,12 +184,10 @@ projects[menu_minipanels][version] = "1.0-rc6"
 
 ; Media
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable7"
-projects[media][patch][] = "http://drupal.org/files/media-media_browser-preview_javascript_incompatibility-1743040.patch"
+projects[media][version] = "2.0-alpha3"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable7"
-; projects[file_entity][patch][] = "http://drupal.org/files/1553094-alt_and_title_support_for_images-175.patch"
+projects[file_entity][version] = "2.0-alpha3"
 
 ; projects[media_browser_plus][subdir] = "contrib"
 ; projects[media_browser_plus][version] = "1.x-dev"
@@ -198,7 +196,7 @@ projects[multiform][subdir] = "contrib"
 projects[multiform][version] = "1.0"
 
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "2.0-rc1"
+projects[media_youtube][version] = "2.0-rc4"
 
 ; Files
 projects[filefield_sources][subdir] = "contrib"
@@ -251,7 +249,7 @@ projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0-beta3"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.1"
+projects[pathauto][version] = "1.2"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "1.1"
