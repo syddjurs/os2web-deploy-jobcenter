@@ -525,3 +525,6 @@ projects[honeypot][version] = "1.14"
 
 ; projects[rubik][version] = "4.0-beta8"
 ; projects[tao][version] = "3.0-beta4"
+
+projects[piwik][subdir] = "contrib"
+projects[piwik][version] = "2.4"
